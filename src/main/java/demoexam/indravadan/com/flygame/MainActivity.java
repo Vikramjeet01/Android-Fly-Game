@@ -26,13 +26,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onPause() {
         super.onPause();
 
-        // Pause the game
+        //Pause the game
         flyGame.pauseGame();
     }
 
     @Override
     protected void onResume() {
         super.onResume();
+
 
         flyGame.startGame();
     }
